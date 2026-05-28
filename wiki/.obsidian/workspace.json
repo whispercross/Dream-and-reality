@@ -4,40 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "c9b419c72f690bf2",
+        "id": "abd7762b2f97378e",
         "type": "tabs",
         "children": [
           {
-            "id": "ed252b9df8b2fd7d",
+            "id": "2a13be3f90fe7b8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Добро пожаловать.md",
-                "mode": "source",
-                "source": false
+                "file": "холст в миро.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Добро пожаловать"
+              "icon": "lucide-layout-dashboard",
+              "title": "холст в миро"
             }
-          }
-        ]
-      },
-      {
-        "id": "0ff8eeab3cea4d4f",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c85c3345587ff257",
+            "id": "df3f3ea63f184b0c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "canvas",
+              "state": {
+                "file": "Сюжетные моменты.canvas",
+                "viewState": {
+                  "x": 31.413623874498683,
+                  "y": -341.30015246297296,
+                  "zoom": -0.7827012304862361
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Сюжетные моменты"
+            }
+          },
+          {
+            "id": "4088177512216bb3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Технические моменты.canvas",
+                "viewState": {
+                  "x": -210,
+                  "y": -187.5,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Технические моменты"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,8 +221,21 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "ed252b9df8b2fd7d",
+  "active": "4088177512216bb3",
   "lastOpenFiles": [
+    "Краткий пересказ завершённых глав.md",
+    "Сюжетные моменты.canvas",
+    "План глав.md",
+    "холст в миро.canvas",
+    "Персонажи.canvas",
+    "Переменная инициативы в отношениях.md",
+    "Детали внешности Милы.md",
+    "Мила (ГГ).md",
+    "Технические моменты.canvas",
+    "Удалось спасти.md",
+    "Не удалось спасти.md",
+    "Без названия.base",
+    "2026-05-17.md",
     "Добро пожаловать.md"
   ]
 }

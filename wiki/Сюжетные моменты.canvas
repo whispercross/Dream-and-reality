@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"9271dcef7a7b4e2c","type":"file","file":"Не удалось спасти.md","x":320,"y":-330,"width":400,"height":400},
+		{"id":"774b59a7469db0f1","type":"file","file":"Удалось спасти.md","x":-140,"y":-330,"width":400,"height":400},
+		{"id":"1daccd816ffd548e","type":"text","text":"Финал арки Принцессы чистоты","x":160,"y":-410,"width":250,"height":60},
+		{"id":"202d6760074ad5e2","x":-760,"y":-940,"width":400,"height":700,"type":"file","file":"План глав.md"}
+	],
+	"edges":[]
+}
