@@ -1415,7 +1415,7 @@ VAR regina = 0
     Я не удержалась от удручённого вздоха, не решаясь смотреть Регине в глаза.
     Мила #CLASS: role
     Лучше бы я ни в ком не нуждалась... #CLASS: direct_speech_thinking
-    curse = curse + 2
+    ~ curse = curse + 2
 }
 
 //были улучшения с парнями
@@ -1429,11 +1429,11 @@ VAR regina = 0
     Я не удержалась от удручённого вздоха.
     Мила #CLASS: role
     Лучше бы я ни в ком не нуждалась... #CLASS: direct_speech_thinking
-    curse = curse + 2
+    ~ curse = curse + 2
 }
 
 //были улучшения с Региной и любым другим персонажем
-{regina != 0:
+{(regina != 0 and kirill != 0 and artem == 0) or (regina != 0 and artem != 0 and kirill == 0) or regina != 0:
     Я выдохнула через напряжённо сомкнутые губы, повернувшись к окну — обычный, казалось бы, вопрос Регины привёл меня в замешательство.
     Мила #CLASS: role
     Почему? Неужели это из-за того, что я... #CLASS: direct_speech_thinking
@@ -1443,11 +1443,11 @@ VAR regina = 0
     Я не удержалась от удручённого вздоха, не решаясь смотреть Регине в глаза.
     Мила #CLASS: role
     Лучше бы я ни в ком не нуждалась... #CLASS: direct_speech_thinking
-    curse = curse + 2
+    ~ curse = curse + 2
 }
 
 //были улучшения с любым одним персонажем кроме Кирилла
-{kirill == 0:
+{(kirill == 0 and artem != 0) or (kirill == 0 and regina != 0):
     Я недолго колебалась.
     Мила #CLASS: role
     Да, с Кирой я когда-то встречалась, но что, если моя симпатия к нему осталась в прошлом? #CLASS: direct_speech_thinking
@@ -1456,7 +1456,18 @@ VAR regina = 0
     Я не удержалась от удручённого вздоха.
     Мила #CLASS: role
     Лучше бы я ни в ком не нуждалась... #CLASS: direct_speech_thinking
-    curse = curse + 1
+    ~ curse = curse + 1
+}
+
+//были улучшения только с Кириллом
+{kirill != 0 and artem == 0 and regina == 0:
+    Я задумалась.
+    Мила #CLASS: role
+    Да, с Кирой я когда-то встречалась, но... захочет ли он снова быть со мной? #CLASS: direct_speech_thinking
+    Я не удержалась от удручённого вздоха.
+    Мила #CLASS: role
+    Лучше бы я ни в ком не нуждалась... #CLASS: direct_speech_thinking
+    ~ curse = curse + 1
 }
 
 //не было улучшений ни с кем
