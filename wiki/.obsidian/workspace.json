@@ -8,58 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a13be3f90fe7b8a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "холст в миро.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "холст в миро"
-            }
-          },
-          {
             "id": "df3f3ea63f184b0c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Сюжетные моменты.canvas",
-                "viewState": {
-                  "x": 31.413623874498683,
-                  "y": -341.30015246297296,
-                  "zoom": -0.7827012304862361
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Сюжетные моменты"
-            }
-          },
-          {
-            "id": "4088177512216bb3",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Технические моменты.canvas",
                 "viewState": {
-                  "x": -210,
-                  "y": -187.5,
-                  "zoom": 0
+                  "x": -641.1056533493474,
+                  "y": -107.23980591131146,
+                  "zoom": 0.13299126742797984
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Технические моменты"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,17 +186,17 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "4088177512216bb3",
+  "active": "df3f3ea63f184b0c",
   "lastOpenFiles": [
-    "Краткий пересказ завершённых глав.md",
     "Сюжетные моменты.canvas",
-    "План глав.md",
+    "Краткий пересказ главы 1.md",
+    "Детали внешности Милы.md",
     "холст в миро.canvas",
+    "Технические моменты.canvas",
+    "План глав.md",
     "Персонажи.canvas",
     "Переменная инициативы в отношениях.md",
-    "Детали внешности Милы.md",
     "Мила (ГГ).md",
-    "Технические моменты.canvas",
     "Удалось спасти.md",
     "Не удалось спасти.md",
     "Без названия.base",

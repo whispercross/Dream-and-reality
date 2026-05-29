@@ -13,6 +13,7 @@ VAR curse = 0
 //начало истории
 //Глава 1
 === chapter_1 ===
+# CLEAR
 Глава 1. Побег. #CLASS: ch_name
 Переезд и иллюзорная ширма. #CLASS: ch_dscr
 -> ch1_living_room
@@ -485,8 +486,8 @@ VAR ch1_pickup_mushrooms = false
 Я оделась в первое попавшееся, закинула в рюкзак по памяти учебные принадлежности и выбежала из дома.
 
 //итоги главы
-Глава завершена!
-Проклятье: {curse}
+Глава завершена! #CLASS: ch_dscr
+Проклятье: {curse} #CLASS: ch_dscr
 
 * [Читать следующую главу] -> chapter_2
 * [Открыть оглавление] -> table_of_contents
@@ -1057,11 +1058,11 @@ VAR regina = 0
 Пиковая дама всему виной. #CLASS: direct_speech
 
 //итоги главы
-Глава завершена!
-Проклятье: {curse}
-Кирилл: {kirill}
-Артём: {artem}
-Регина: {regina}
+Глава завершена! #CLASS: ch_dscr
+Проклятье: {curse} #CLASS: ch_dscr
+Кирилл: {kirill} #CLASS: ch_dscr
+Артём: {artem} #CLASS: ch_dscr
+Регина: {regina} #CLASS: ch_dscr
 
 * [Читать следующую главу] -> chapter_3
 * [Открыть оглавление] -> table_of_contents
@@ -1417,6 +1418,7 @@ VAR regina = 0
 Ну... Кирилл. Он тебе всё ещё нравится? #CLASS: direct_speech
 
 //рефлексия гг насчёт проявленного ей интереса к персонажам
+
 //были улучшения со всеми
 {kirill != 0 and artem != 0 and regina != 0:
     Я выдохнула через напряжённо сомкнутые губы, повернувшись к окну — обычный, казалось бы, вопрос Регины привёл меня в замешательство.
@@ -1446,7 +1448,7 @@ VAR regina = 0
 }
 
 //были улучшения с Региной и любым другим персонажем
-{(regina != 0 and kirill != 0 and artem == 0) or (regina != 0 and artem != 0 and kirill == 0) or regina != 0:
+{(regina != 0 and kirill != 0 and artem == 0) or (regina != 0 and artem != 0 and kirill == 0):
     Я выдохнула через напряжённо сомкнутые губы, повернувшись к окну — обычный, казалось бы, вопрос Регины привёл меня в замешательство.
     Мила #CLASS: role
     Почему? Неужели это из-за того, что я... #CLASS: direct_speech_thinking
@@ -1460,7 +1462,7 @@ VAR regina = 0
 }
 
 //были улучшения с любым одним персонажем кроме Кирилла
-{(kirill == 0 and artem != 0) or (kirill == 0 and regina != 0):
+{(kirill == 0 and artem != 0 and regina == 0) or (kirill == 0 and regina != 0 and artem == 0):
     Я недолго колебалась.
     Мила #CLASS: role
     Да, с Кирой я когда-то встречалась, но что, если моя симпатия к нему осталась в прошлом? #CLASS: direct_speech_thinking
@@ -1617,11 +1619,11 @@ VAR regina = 0
 Наверняка это было что-то хорошее. #CLASS: direct_speech_thinking
 
 //итоги главы
-Глава завершена!
-Проклятье: {curse}
-Кирилл: {kirill}
-Артём: {artem}
-Регина: {regina}
+Глава завершена! #CLASS: ch_dscr
+Проклятье: {curse} #CLASS: ch_dscr
+Кирилл: {kirill} #CLASS: ch_dscr
+Артём: {artem} #CLASS: ch_dscr
+Регина: {regina} #CLASS: ch_dscr
 
 Продолжение следует...
 * [Открыть оглавление] -> table_of_contents
